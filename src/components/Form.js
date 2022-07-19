@@ -6,11 +6,12 @@ function Form() {
 
   function handleFirstNameChange(event) {
     setFirstName(event.target.value);
-  }
+  };
+
 
   function handleLastNameChange(event) {
     setLastName(event.target.value);
-  }
+  };
 
   return (
     <form>
